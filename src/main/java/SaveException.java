@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class SavaException {
+public class SaveException extends RuntimeException {
+    public SaveException(String message) {
+        super(message);
+    }
 }
